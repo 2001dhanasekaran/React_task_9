@@ -24,7 +24,7 @@ export default function Skydash(){
         </div>
       </div>
       <div className='row mt-4 pt-5'>
-        <div className="nav flex-column sideitems col-lg-2">
+        <div className="nav flex-column sideitems col-md-2">
           <div className='main'>
             <div className='item'><a className="nav-link" href='/'><i class="fa-duotone fa-light fa-grid-2"></i> Dashboard</a></div>
             <div className='arrow'><FontAwesomeIcon icon={faChevronRight} /></div>
@@ -62,15 +62,15 @@ export default function Skydash(){
             <div className='arrow'><FontAwesomeIcon icon={faChevronRight} /></div>
           </div>
         </div>
-        <div className='container col-lg-10 py-5'>
+        <div className='container col-md-10 py-5'>
           <div className='welcome'>
             <h1>Welcome Aamir</h1>
             <div className='row ms-2'>
-              <div className='col-lg-10'><h5>All systems are running smoothly! You have <span style={{color:"blue"}}>3 unread alerts!</span></h5></div>
-              <div className='date col-lg-2'><h5>Today (25 Nov 2024) <FontAwesomeIcon icon={faAngleDown} /></h5></div>
+              <div className='col-md-10'><h5>All systems are running smoothly! You have <span style={{color:"blue"}}>3 unread alerts!</span></h5></div>
+              <div className='date col-md-2'><h5>Today (25 Nov 2024) <FontAwesomeIcon icon={faAngleDown} /></h5></div>
             </div>
             <div className='row content mt-5'>
-              <div className='image ms-5 col-lg-6 position-relative'>
+              <div className='image ms-5 col-md-6 position-relative'>
                 <div className='position-absolute top-0 start-50 m-3 text-black text-end d-flex '> 
                     <div className='me-2'><h1><FontAwesomeIcon icon={faSun} /> 31°C</h1></div>
                     <div>
@@ -79,9 +79,9 @@ export default function Skydash(){
                     </div>
                 </div>
               </div>
-              <div className='col-lg-6'>
+              <div className='col-md-6'>
                 <div className='row'>
-                  <div className='col-lg-6'>
+                  <div className='col-md-6'>
                     <div className='ms-4 box' style={{backgroundColor:"rgb(62, 166, 214)"}}>
                       <ul>
                         <li>Today's Bookings</li>
@@ -97,7 +97,7 @@ export default function Skydash(){
                       </ul>
                     </div>
                   </div>
-                  <div className='col-lg-6'>
+                  <div className='col-md-6'>
                     <div className='ms-3 box' style={{backgroundColor:"rgb(36, 8, 104)"}}>
                       <ul>
                         <li>Number of Meetings</li>

@@ -71,9 +71,9 @@ export default function Skydash(){
             </div>
             <div className='row content mt-5 ms-3'>
               <div className='image col-lg-6 position-relative'>
-                <div className='position-absolute top-0 start-50 m-3 text-black text-end d-flex '> 
-                    <div className='me-2'><h1><FontAwesomeIcon icon={faSun} /> 31°C</h1></div>
-                    <div>
+                <div className='position-absolute top-0 start-50 mt-4 text-black text-end d-flex '> 
+                    <div><h3><FontAwesomeIcon icon={faSun} /> 31°C</h3></div>
+                    <div className='ms-2'>
                       <h3>Bangalore</h3>
                       <h4>India</h4>
                     </div>
